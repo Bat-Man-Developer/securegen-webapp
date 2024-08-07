@@ -150,7 +150,6 @@ $conn->close();
     </head>
     <body>
         <h1>Blockchain Example</h1>
-
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
             Amount: <input type="number" name="flduseramount"><br>
             Name: <input type="text" name="fldusername"><br>
